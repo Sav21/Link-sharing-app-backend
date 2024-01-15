@@ -1,0 +1,19 @@
+{
+  "name": "practice-link-sharing-backend",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "dockerDashComposeVersion": "v2"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {}
+  },
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "prisma.prisma"]
+    }
+  }
+}
